@@ -1,0 +1,61 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navFlex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    height: 60px;
+    width: 100%;
+    background-color: blueviolet;
+}
+#logoFlex{
+    display: inline-flex;
+}
+#logo img{
+    width: 90px;
+    height: 50px;
+    margin-left: 30px;
+}
+#logoText{
+    padding: 10px 0px;
+    color:rgb(255, 255, 255);
+    /* text-shadow: 2px 2px 3px white; */
+}
+nav ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+nav ul li{
+    padding: 10px 0px;
+}
+
+nav ul li:hover{
+    background-color: rgb(107, 46, 168);
+    color: white;
+    font-weight: 700;
+    /*text-shadow: 1px 1px 2px white;*/
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 20px 20px;
+    color: rgb(255, 255, 255);
+}
+nav ul li a:hover{
+    color: white;
+    /*text-shadow: 1px 1px 2px white;*/
+}
+.cent1{
+    text-align: center;
+}
+.border1{
+    box-shadow: 0px 0px 5px rgb(83, 81, 81);
+}
+.container{
+    background-color: white;
+}

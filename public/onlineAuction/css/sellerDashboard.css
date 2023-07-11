@@ -1,0 +1,101 @@
+#navFlex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    height: 60px;
+    width: 100%;
+    background-color: blueviolet;
+}
+#logoFlex{
+    display: inline-flex;
+}
+#logo img{
+    width: 90px;
+    height: 50px;
+    margin-left: 30px;
+}
+#logoText{
+    padding: 10px 0px;
+    color:rgb(255, 255, 255);
+    /* text-shadow: 2px 2px 3px white; */
+}
+nav ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+nav ul li{
+    padding: 10px 0px;
+}
+
+nav ul li:hover{
+    background-color: rgb(107, 46, 168);
+    color: white;
+    font-weight: 700;
+    /*text-shadow: 1px 1px 2px white;*/
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 20px 20px;
+    color: rgb(255, 255, 255);
+}
+nav ul li a:hover{
+    color: white;
+    /*text-shadow: 1px 1px 2px white;*/
+}
+
+
+.center1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.images{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0px 0px 3px black;
+    background: url("{{asset('onlineAuction/images/logo.png')}}") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.images img{
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center2{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.items{
+    text-align: center;
+    padding-top: 8px;
+    height: 60px;
+    background-color: dodgerblue;
+    color: white;
+    border: 2px double black;
+    border-radius: 30px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items a{
+    text-decoration: none;
+    color: white;
+}

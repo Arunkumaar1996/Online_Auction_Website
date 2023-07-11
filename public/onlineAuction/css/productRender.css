@@ -1,0 +1,106 @@
+body{
+    background-color:darkgray;
+    
+}
+#navFlex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    height: 60px;
+    width: 100%;
+    background-color: blueviolet;
+}
+#logoFlex{
+    display: inline-flex;
+}
+#logo img{
+    width: 90px;
+    height: 50px;
+    margin-left: 30px;
+}
+#logoText{
+    padding: 10px 0px;
+    color:rgb(255, 255, 255);
+    /* text-shadow: 2px 2px 3px white; */
+}
+nav ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+nav ul li{
+    padding: 10px 0px;
+}
+
+nav ul li:hover{
+    background-color: rgb(107, 46, 168);
+    color: white;
+    font-weight: 700;
+    /*text-shadow: 1px 1px 2px white;*/
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 20px 20px;
+    color: rgb(255, 255, 255);
+}
+nav ul li a:hover{
+    color: white;
+    /*text-shadow: 1px 1px 2px white;*/
+}
+.spacing{
+    box-sizing: border-box;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxsize{
+    width: 80vw;
+    
+}
+.navbar-brand{
+    text-shadow: 2px 2px 2px gray;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.card{
+    width: 200px;
+    overflow-wrap:normal;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+.card:hover{
+    transform: scale(1.01);
+
+}
+
+.card img{
+    /* margin-top: 5px;
+    margin-left: 10px;
+    width: 180px; */
+    height: 20vh;
+    border-radius: 5px;
+    /* border: 1px solid rgb(89, 92, 89); */
+}
+#effects a:hover{
+    background-color: #198754;
+}
+i{
+    font-size: 6px;
+}
+.card-text p{
+    font-size: 14px;
+}
+.card-title{
+    width: 170px;
+    height: 45px;
+    overflow: hidden;
+}
+.px{
+    width: 170px;
+    height: 46px;
+    overflow: hidden;
+}

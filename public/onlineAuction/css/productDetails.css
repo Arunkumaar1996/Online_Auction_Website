@@ -1,0 +1,76 @@
+#navFlex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    height: 60px;
+    width: 100%;
+}
+#logoFlex{
+    display: inline-flex;
+    
+}
+#logo img{
+    width: 90px;
+    height: 60px;
+    
+    margin-left: 30px;
+}
+#logoText{
+    padding: 10px 0px;
+    color:rgb(0, 0, 0);
+    /* text-shadow: 2px 2px 3px white; */
+}
+nav ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+nav ul li{
+    padding: 10px 0px;
+}
+nav ul li a:hover{
+    color: blueviolet;
+    font-weight: 700;
+    /*text-shadow: 1px 1px 2px white;*/
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 20px 20px;
+    color: rgb(0, 0, 0);
+}
+/* productpage */
+#carouselExampleIndicators{
+    width: 50vw;
+    height: 70vh;
+    background-color: aqua;
+    margin: 40px;
+}
+img{
+    width: 50vw;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+.flex1{
+    display: flex;
+    gap:30px;
+}
+.flex2{
+    margin: 0px;
+    margin-top: 30px;
+}
+.Description{
+    display: flex;
+
+}
+.discr{
+    width: 37vw;
+    text-align: justify;
+}
+.button{
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    
+}
